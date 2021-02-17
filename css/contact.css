@@ -463,3 +463,9 @@ textarea.input1+.shadow-input1 {
         opacity: 1;
     }
 }
+
+@media (max-width: 26.25em){
+    .my-email{
+        font-size: 1rem;
+    }
+}

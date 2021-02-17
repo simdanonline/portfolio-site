@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <!--  custom css file  -->
     <link rel="stylesheet" href="./css/style.css">
@@ -112,7 +114,7 @@
 
         <!--  ========================= About Area ==========================  -->
 
-        <section class="about-area">
+        <section data-aos="fade-up" class="about-area">
             <a name="about"></a>
             <div class="container-fluid">
                 <div class="row">
@@ -255,9 +257,9 @@
         <br>
         <br>
         <br>
-        <section class="services-area">
+        <section class="services-area"  data-aos="fade-up">
 
-            <div class="container">
+            <div data-aos="fade-left" class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center services-title">
                         <h1 class="text-uppercase title-text">Services Offers</h1>
@@ -267,16 +269,16 @@
                         </p>
                     </div>
                 </div>
-                <div class="container services-list">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-12">
+                <div data-aos="fade-right" class="container services-list">
+                    <div class="roww service-row">
+                        <div class="">
                             <div class="services">
                                 <div class="sevices-img text-center py-4">
                                     <img src="./img/services/s1.png" alt="Services-1">
                                 </div>
-                                <div class="card-body text-center">
-                                    <h5 class="card-title text-uppercase font-roboto">Wordpress developer</h5>
-                                    <p class="card-text text-secondary">
+                                <div class="cardd-body text-center">
+                                    <h5 class="cardd-title text-uppercase font-roboto">Wordpress developer</h5>
+                                    <p class="cardd-text text-secondary">
                                         I have been working with wordpress
                                         for over 4years, and I have made several
                                         websites using this platform.
@@ -284,14 +286,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="services">
+                        <div class="">
+                            <div  class="services">
                                 <div class="sevices-img text-center py-4">
                                     <img src="./img/services/s3.png" alt="Services-3">
                                 </div>
-                                <div class="card-body text-center">
-                                    <h5 class="card-title text-uppercase font-roboto">web development</h5>
-                                    <p class="card-text text-secondary">
+                                <div class="cardd-body text-center">
+                                    <h5 class="cardd-title text-uppercase font-roboto">web development</h5>
+                                    <p class="cardd-text text-secondary">
                                         I have over 5 years experience
                                         with web development and design.
                                         I'd make your website to your satisfaction.
@@ -301,14 +303,14 @@
                         </div>
 
 
-                        <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="">
                             <div class="services">
                                 <div class="sevices-img text-center py-4">
                                     <img src="./img/services/s4.png" alt="Services-4">
                                 </div>
-                                <div class="card-body text-center">
-                                    <h6 class="card-title text-uppercase font-roboto">Mobile development</h6>
-                                    <p class="card-text text-secondary">
+                                <div class="cardd-body text-center">
+                                    <h6 class="cardd-title text-uppercase font-roboto">Mobile development</h6>
+                                    <p class="cardd-text text-secondary">
                                         I can make cross platforms (android&ios) mobile applications,
                                         ready for upload to appstore/playstore
                                     </p>
@@ -327,175 +329,113 @@
         <div class="clashes">
 
             <a name="portfolio"></a>
-            <section class="project-area">
-                <div class="container">
-                    <div class="project-title pb-5">
-                        <h1 class="text-uppercase title-h1">Recently Done Project</h1>
-                        <h1 class="text-uppercase title-h1">Quality Work</h1>
-                    </div>
-
-                    <div class="button-group">
-                        <button type="button" class="active" id="btn1" data-filter="*">All</button>
-                        <button type="button" data-filter=".popular">Popular</button>
-                        <button type="button" data-filter=".latest">Latest</button>
-                        <button type="button" data-filter=".following">Following</button>
-                        <button type="button" data-filter=".upcoming">Upcoming</button>
-                    </div>
-
-                    <div class="row grid">
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./img/portfolio/p1.jpg">
-                                        <img src="./img/portfolio/p1.jpg" alt="portfolio-1" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <a
-                                        href="https://play.google.com/store/apps/details?id=com.simdanonline.cwashyfood&hl=en">
-                                        <h4 class="text-uppercase">CwashyFood</h4>
-                                    </a>
-                                    <span class="text-secondary">Popular, Portfolio</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./img/portfolio/weather.jpg">
-                                        <img src="./img/portfolio/weather.jpg" alt="portfolio-2" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <a href="https://simdan-react-weatherapp.netlify.com/">
-                                        <h4 class="text-uppercase">Weather app</h4>
-                                    </a>
-                                    <span class="text-secondary">Latest, Portfolio</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./img/portfolio/p3.jpg">
-                                        <img src="./img/portfolio/p3.jpg" alt="portfolio-3" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <a
-                                        href="https://play.google.com/store/apps/details?id=com.mstoreapp.dokan_new1570909225298&hl=en">
-                                        <h4 class="text-uppercase">SIMDAN MALL</h4>
-                                    </a>
-                                    <span class="text-secondary">Popular, Portfolio</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./img/portfolio/p3.jpg">
-                                        <img src="./img/portfolio/p3.jpg" alt="portfolio-3" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <a
-                                        href="https://simdan-dicegame.netlify.com/">
-                                        <h4 class="text-uppercase">Dice game</h4>
-                                    </a>
-                                    <span class="text-secondary">Popular, Latest, Portfolio</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./img/portfolio/p4.jpg">
-                                        <img src="./img/portfolio/p4.jpg" alt="portfolio-4" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">MY TRACKS</h4>
-                                    <span class="text-secondary">Upcoming, Portfolio</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./img/portfolio/twitter.jpg">
-                                        <img src="./img/portfolio/twitter.jpg" alt="portfolio-5" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">TWITTER CLONE</h4>
-                                    <span class="text-secondary">Upcoming, Portfolio</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./img/portfolio/p6.jpg">
-                                        <img src="./img/portfolio/p6.jpg" alt="portfolio-6" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <a
-                                        href="https://play.google.com/store/apps/details?id=com.simdanonline.cryptrade&hl=en">
-                                        <h4 class="text-uppercase">CRYPTRADE</h4>
-                                    </a>
-                                    <span class="text-secondary">Latest, Portfolio</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./img/portfolio/p7.jpg">
-                                        <img src="./img/portfolio/p7.jpg" alt="portfolio-7" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">Green Heaven</h4>
-                                    <span class="text-secondary">Following, Portfolio</span>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!-- <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./img/portfolio/p8.jpg">
-                                        <img src="./img/portfolio/p8.jpg" alt="portfolio-8" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">Fly Male</h4>
-                                    <span class="text-secondary">Following, Portfolio</span>
-                                </div>
-                            </div>
-                        </div> -->
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./img/portfolio/todo.jpg">
-                                        <img src="./img/portfolio/todo.jpg" alt="portfolio-9" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">TODOLIST APP</h4>
-                                    <span class="text-secondary">Upcoming, Portfolio</span>
-                                </div>
-                            </div>
-                        </div>
+            <!-- <section data-aos="fade-left" class="project-area">
+                
+            </section> -->
+            <div class="project-title pb-5">
+                <h1 class="text-uppercase title-h1">Recently Done Project</h1>
+            </div>
+            <section class="roww  col-xl-12">
+                <div class="card coll-1-of-3" style="width: 18rem; margin:10px 10px">
+                    <img src="./img/abiatele.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Abia State Tele Health</h5>
+                      <p class="card-text">A mobile application which connects users to doctors.</p>
+                      <a target="blank" href="https://play.google.com/store/apps/details?id=com.abiatelehealth.app" class="btn btn-primary">View</a>
                     </div>
                 </div>
+                
+
+                <div class="card coll-1-of-3" style="width: 18rem; margin:10px 10px">
+                    <img src="./img/recipe.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Recipe app</h5>
+                      <p class="card-text">Want to cook a meal, and don't know how to? Just search and get the complete information of neccessary ingredients and instructions.</p>
+                      <a target="blank" href="https://play.google.com/store/apps/details?id=com.simdanonline.foodapp" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+
+
+                <div class="card coll-1-of-3" style="width: 18rem; margin:10px 10px">
+                    <img src="./img/portfolio/p4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">My Tracks</h5>
+                      <p class="card-text">Keep tracks of your movement with this tracks app. It lets you record your path</p>
+                      <a target="blank" href="https://play.google.com/store/apps/details?id=com.simdanonline.mytracks" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+
             </section>
+
+            <section class="roww">
+                
+                <div class="card  coll-1-of-3" style="width: 18rem; margin:10px 10px">
+                    <img src="./img/fastlink.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Fastlink Enterprise</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a target="blank" href="http://fastlinkenterprise.com" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+
+                <div class="card coll-1-of-3" style="width: 18rem; margin:10px 10px">
+                    <img src="./img/portfolio/weather.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Weather Checker</h5>
+                      <p class="card-text">Check weather of any location in the world, by just name of location.</p>
+                      <a target="blank" href="https://simdan-react-weatherapp.netlify.app/" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+
+
+                <div class="card coll-1-of-3" style="width: 18rem; margin:10px 10px">
+                    <img src="./img/dice.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Dice game</h5>
+                      <p class="card-text">A simple dice game.</p>
+                      <a target="blank" href="https://simdan-dicegame.netlify.app/" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="roww">
+                <div class="card coll-1-of-3" style="width: 18rem; margin:10px 10px">
+                <img src="./img/abiatele.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Abia State Tele Health</h5>
+                  <p class="card-text">A mobile application which connects users to doctors.</p>
+                  <a target="blank" href="https://play.google.com/store/apps/details?id=com.abiatelehealth.app" class="btn btn-primary">View</a>
+                </div>
+            </div>
+           
+
+            <!--<div class="card coll-1-of-3" style="width: 18rem; margin:10px 10px">-->
+            <!--    <img src="./img/portfolio/weather.jpg" class="card-img-top" alt="...">-->
+            <!--    <div class="card-body">-->
+            <!--      <h5 class="card-title">Weather Checker</h5>-->
+            <!--      <p class="card-text">Check weather of any location in the world, by just name of location.</p>-->
+            <!--      <a target="blank" href="https://simdan-react-weatherapp.netlify.app/" class="btn btn-primary">View</a>-->
+            <!--    </div>-->
+            <!--</div>-->
+
+
+            <!--<div class="card coll-1-of-3" style="width: 18rem; margin:10px 10px">-->
+            <!--    <img src="./img/dice.jpg" class="card-img-top" alt="...">-->
+            <!--    <div class="card-body">-->
+            <!--      <h5 class="card-title">Dice game</h5>-->
+            <!--      <p class="card-text">A simple dice game.</p>-->
+            <!--      <a target="blank" href="https://simdan-dicegame.netlify.app/" class="btn btn-primary">View</a>-->
+            <!--    </div>-->
+            <!--</div>-->
+
+        </section>
 
             <!--  ======================= End Project Area =============================  -->
 
             <!--  ======================== About Me Area ==============================  -->
 
-            <section class="about-area">
+            <section style="margin-top: 5rem;"  class="about-area">
                 <div class="container">
                     <div class="row text-center">
                         <div class="col-12">
@@ -703,6 +643,12 @@
                 </div>
             </div>
             </footer>
+
+            <!--Animate on scroll-->
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+              </script>
 
 
             <!--  Jquery js file  -->
